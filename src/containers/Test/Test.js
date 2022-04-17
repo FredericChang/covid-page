@@ -54,45 +54,77 @@ class Test extends Component {
                     </div>
                     <hr></hr>
 
-                    <div class="grid grid-cols-6 gap-4 text-center space-y-4">
+                    <div class="grid grid-cols-6 gap-4 text-center space-y-2">
                         <div class="col-start-2 col-span-4 font-sans text-3xl">
                             <a>
-                            COVID certificate for travel (for people living in this country)
+                            Testing for COVID-19
                             </a>
                         </div>
                         <div class="col-start-2 col-end-6 col-span-2">
                             <a class="text-center">
-                            A coronavirus pass allows you to travel safely to countries where a certificate is required. You can create a certificate if you’ve been vaccinated, if you’ve been tested and don’t have coronavirus, or if you’ve had coronavirus and have recovered.
+                            Testing is an important tool in controlling COVID-19. It allows us to keep a close eye on the spread of the coronavirus SARS-CoV-2.
                             </a>
                         </div>
                         <div class="col-start-1 col-end-7 col-span-8 space-x-4 ">
-                            <button class=" text-sky-400/75 font-bold  w-80 h-24 rounded-md border border-indigo-500">Create A vaccination Certificate</button>
-                            <button class="bg-slate-200  text-black font-bold w-80 h-24 rounded-md place-self-center">I received a (booster) vaccination</button>
-                            <button class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold w-10 h-24 rounded-md place-self-center shadow-2xl">
+                            <button class=" text-sky-400/75 hover:bg-indigo-200 font-bold  w-80 h-24 rounded-md border border-indigo-500">Create A test Certificate</button>
+                            <button class=" text-sky-400/75 hover:bg-indigo-200 font-bold  w-80 h-24 rounded-md border border-indigo-500">Test appointment</button>
+                            <button class=" text-sky-400/75 hover:bg-indigo-200 font-bold  w-80 h-24 rounded-md border border-indigo-500">Test Cancelation
                                 <a href=''>
-                                    Go
+                                    
                                 </a>
                             </button>
                         </div>
-                        <div class="col-start-1 col-end-7 col-span-8 space-x-4 ">
-                            <button class=" text-sky-400/75 font-bold  w-80 h-24 rounded-md border border-indigo-500">Create A recovery Certificate</button>
-                            <button class="bg-slate-200  text-black font-bold w-80 h-24 rounded-md place-self-center">The test proves I have had coronavirus</button>
-                            <button class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold w-10 h-24 rounded-md place-self-center shadow-2xl">
-                            <a href=''>
-                            Go
-                                </a>
-                            </button>
+                        <div class="col-start-2 col-end-6 col-span-2">
+                            <a class="text-center">
+                            Do I need to self-quarantine?
+                            </a>
                         </div>
-                        <div class="col-start-1 col-end-7 col-span-8 space-x-4 ">
-                            <button class=" text-sky-400/75 font-bold  w-80 h-24 rounded-md border border-indigo-500">Vaccination  appointment</button>
-                            <button class="bg-slate-200  text-black font-bold w-80 h-24 rounded-md place-self-center">Making an appointment</button>
-                            <button class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold w-10 h-24 rounded-md place-self-center shadow-2xl">
-                            <a href=''>
-                            Go
-                                </a>
-                            </button>
+                        <div class="col-start-2 col-end-6">
+                            <a class="text-center">
+                            Choose a situation to know if you should quarantine and when to get tested. Even if you have been vaccinated or recovered.
+                            </a>
                         </div>
-
+                    </div>
+                    <div class="grid grid-cols-3 place-items-center">
+                        <div class=" w-80 h-40 rounded-md border border-indigo-500 shadow-md">
+                            <div class="space-y-2 text-base leading-7 text-gray-600">
+                                <p class="text-center">I have COVID-19</p>
+                                <p class="text-center">Do you have a positive  test result? Then you have COVID-19 and you go into isolation.                                 </p>
+                                <div class="flex items-center space-x-8 ml-12">
+                                    <svg class="h-6 w-6 flex-none fill-sky-100 stroke-sky-500 stroke-2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="11" />
+                                        <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
+                                    </svg>
+                                    <p class="text-center">See more details</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" w-80 h-40 rounded-md border border-indigo-500 shadow-md">
+                            <div class="space-y-2 text-base leading-7 text-gray-600">
+                                    <p class="text-center">I think I have COVID-19</p>
+                                    <p class="text-center">Do you have a positive self-test result or COVID-19 symptoms? Then you go into self-quarantine.</p>
+                                    <div class="flex items-center space-x-8 ml-12">
+                                        <svg class="h-6 w-6 flex-none fill-sky-100 stroke-sky-500 stroke-2" stroke-linecap="round" stroke-linejoin="round">
+                                            <circle cx="12" cy="12" r="11" />
+                                            <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
+                                        </svg>
+                                        <p class="text-center">See more details</p>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class=" w-80 h-40 rounded-md border border-indigo-500 shadow-md">
+                        <div class="space-y-2 text-base leading-7 text-gray-600">
+                                    <p class="text-center">I think I have COVID-19</p>
+                                    <p class="text-center">Do you have a positive self-test result or COVID-19 symptoms? Then you go into self-quarantine.</p>
+                                    <div class="flex items-center space-x-8 ml-12">
+                                        <svg class="h-6 w-6 flex-none fill-sky-100 stroke-sky-500 stroke-2" stroke-linecap="round" stroke-linejoin="round">
+                                            <circle cx="12" cy="12" r="11" />
+                                            <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
+                                        </svg>
+                                        <p class="text-center">See more details</p>
+                                    </div>
+                                </div>
+                        </div>
                     </div>
 
                 </>      

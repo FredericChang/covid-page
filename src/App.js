@@ -1,5 +1,11 @@
 import React, {Component} from "react";
 import Header from './components/Header';
+import Home from './containers/home'
+import Vaccinations from './containers/Vaccinations'
+import Test from './containers/Test'
+import Travel from './containers/Travel'
+
+
 
 
 let name = "Adam";
@@ -11,9 +17,14 @@ class App extends Component {
     return(
       <React.Fragment>
         <Header/>
-        <h4 className="bg-primary text-white text-center p-3">
+        {/* <Home/> */}
+        {/* <Vaccinations/> */}
+        {/* <Test/> */}
+        <Travel/>
+
+        {/* <h4 className="text-3xl font-bold underline">
         { this.message() }
-        </h4>
+        </h4> */}
       </React.Fragment>
     );
   }
