@@ -56,28 +56,30 @@ class Other extends Component {
 
                     <div class="grid grid-cols-6 gap-4 text-center space-y-2">
                         <div class="col-start-2 col-span-4 font-sans text-3xl">
-                            <a>
-                            Use of the CoronaMelder app</a>
-                        </div>
-                        <div class="col-start-2 col-end-6 col-span-2">
-                            <a class="text-center">
-                            The CoronaMelder app has been developed to help fight the spread of coronavirus. The app keeps track of when users have been within close range of one another for a longer period of time. If a CoronaMelder user tests positive for corona, they can choose to alert other app users. App users who get an alert can then get tested and avoid unknowingly infecting others.</a>
-                        </div>
-                        <div class="col-start-2 col-end-6 col-span-2">
-                            <a class="text-start ">
-                            Last values obtained on Thursday, 14 April. Is updated on working days.</a>
-                        </div>
-                        <div class="col-start-2 col-end-6 font-sans text-xl">
-                            <a class="">
-                            Useful links</a>
+                            <a>Explanation of the data presented</a>
                         </div>
                         <div class="col-start-1 col-end-7 col-span-8 space-x-4 ">
-                        <button class="bg-slate-200  text-black font-bold w-4/6 h-12 rounded-md place-self-center">Download CoronaMelder </button>
+                            <button class="bg-slate-200  text-black font-bold w-4/6 h-12 rounded-md place-self-center">Vulnerable groups </button>
                             <button class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold w-1/6 h-12 rounded-md place-self-center shadow-2xl">
-                            <a href='https://coronamelder.nl/nl/'>
-                            Go
-                                </a>
-                            </button>
+                            <a href='https://data.rivm.nl/covid-19/COVID-19_verpleeghuizen.csv'>Go</a></button>
+                        </div>
+                        <div class="col-start-1 col-end-7 col-span-8 space-x-4 ">
+                            <button class="bg-slate-200  text-black font-bold w-4/6 h-12 rounded-md place-self-center">Early indicators</button>
+                            <button class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold w-1/6 h-12 rounded-md place-self-center shadow-2xl">
+                            <a href='https://data.rivm.nl/covid-19/COVID-19_rioolwaterdata.csv'>Go</a></button>
+                        </div>
+                        <div class="col-start-1 col-end-7 col-span-8 space-x-4 ">
+                            <button class="bg-slate-200  text-black font-bold w-4/6 h-12 rounded-md place-self-center">Behaviour</button>
+                            <button class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold w-1/6 h-12 rounded-md place-self-center shadow-2xl">
+                            <a href='https://data.rivm.nl/covid-19/COVID-19_gedrag.csv'>Go</a></button>
+                        </div>
+                        <div class="col-start-2 col-span-4 font-sans text-3xl">
+                            <a>Other</a>
+                        </div>
+                        <div class="col-start-1 col-end-7 col-span-8 space-x-4 ">
+                            <button class="bg-slate-200  text-black font-bold w-4/6 h-12 rounded-md place-self-center">Age distribution in graphs</button>
+                            <button class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold w-1/6 h-12 rounded-md place-self-center shadow-2xl">
+                            <a href='https://data.rivm.nl/covid-19/COVID-19_casus_landelijk.html'>Go</a></button>
                         </div>
 
                     </div>
