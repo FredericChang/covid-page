@@ -11,7 +11,7 @@ const E = 'E'
 
 
 const tabsText = [A,B,C,D,E]
-class Hospital extends Component {
+class Userfullink extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -103,4 +103,4 @@ class Hospital extends Component {
     }
 
 }
-export default Hospital;
+export default Userfullink;

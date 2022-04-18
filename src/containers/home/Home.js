@@ -2,7 +2,7 @@ import React, {useState, useEffect, useRef, Component} from 'react';
 import Tabs from '../../components/Tabs'
 import Tab from '../../components/Tabs'
 import CreateBtn from '../../components/CreateBtn'
-import Test2 from '../Test2'
+import Contact from '../Contact'
 import Summary from '../Summary'
 import Test from '../Test'
 import Vaccinations from '../Vaccinations'
@@ -75,7 +75,7 @@ class Home extends Component {
         this.state = {
             items,
             counter:0,
-            tabView: tabsText[0]
+            tabView: tabsText[4]
             
         }
     }
@@ -110,18 +110,23 @@ class Home extends Component {
                         </Tabs>
                     </div>
                     <hr></hr>
-                    {   this.state.tabView == A &&
+                    {   this.state.tabView === A &&
                         <Summary/>
                     }
-                    {   this.state.tabView == B &&
+                    {   this.state.tabView === B &&
                         <Vaccinations/>
                     }
-                    {   this.state.tabView == C &&
+                    {   this.state.tabView === C &&
                         <Test/>
                     }
-                    {   this.state.tabView == D &&
+                    {   this.state.tabView === D &&
                         <Travel/>
                     }
+                    {   this.state.tabView === E &&
+                        <Contact/>
+                    }
+
+
                 </>      
         )
     }

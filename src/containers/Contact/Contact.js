@@ -6,11 +6,8 @@ import Hospital from '../../containers/Hospital'
 import Infectious from '../../containers/Infectious'
 import Death from '../../containers/Death'
 import Compliance from '../../containers/Compliance'
-import Death from '../../containers/Death'
-import Death from '../../containers/Death'
-
-
-
+import Userfullink from '../../containers/Userfullink'
+import Other from '../../containers/Other'
 
 
 const HospitalView = 'Hospital'
@@ -87,10 +84,10 @@ class Contact extends Component {
                              <Compliance/>
                             }
                             {   this.state.tabView === OtherView &&
-                             <div>OtherView</div>
+                             <Other/>
                             }
                             {   this.state.tabView === UsefullinksView &&
-                             <div>UsefullinksView</div>
+                             <Userfullink/>
                             }
 
                         </div>
