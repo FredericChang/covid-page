@@ -42,7 +42,7 @@ class Travel extends Component {
     render(){
         return(
                 <>
-                    <div class="flex">
+                    {/* <div class="flex">
                         <Tabs activeIndex={0} onTabChange={this.changeView} class="flex">
                             <Tab class="flex-none w-14 h-14">Summary</Tab>
                             <Tab class="flex-none w-14 h-14">Vaccinations</Tab>
@@ -52,8 +52,8 @@ class Travel extends Component {
 
                         </Tabs>
                     </div>
-                    <hr></hr>
-                    {/* <div> fff{this.state.tabView}</div> */}
+                    <hr></hr> */}
+
                     <div class="grid grid-cols-6 gap-4 text-center space-y-2">
                         <div class="col-start-2 col-span-4 font-sans text-3xl">
                             <a>

@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+.chart-area {
+  height: 100%;
+  width: 100%;
+}
+
+.chart-line {
+  stroke-width: 2;
+  stroke: #48bb78;
+  fill: none;
+}
+
+.chart-marker {
+  stroke: #22543d;
+  stroke-width: 2;
+  fill: #c6f6d5;
+}
+

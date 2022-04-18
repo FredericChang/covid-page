@@ -17,10 +17,10 @@ class App extends Component {
     return(
       <React.Fragment>
         <Header/>
-        {/* <Home/> */}
+        <Home/>
         {/* <Vaccinations/> */}
         {/* <Test/> */}
-        <Travel/>
+        {/* <Travel/> */}
 
         {/* <h4 className="text-3xl font-bold underline">
         { this.message() }

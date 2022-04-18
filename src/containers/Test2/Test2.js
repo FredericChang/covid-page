@@ -1,33 +1,16 @@
-import React, {useState, useEffect, useRef, Component} from 'react';
-import Tabs from '../../components/Tabs'
-import Tab from '../../components/Tabs'
-import CreateBtn from '../../components/CreateBtn'
-
+import React, {Component} from 'react';
 import { DateTime } from "luxon";
-import LineChart from '../../components/LineChart/LineChart';
-// import "./Home.css";
 
-
-
-const tabsText = ["Year", "Month", "Week", "All"]
-const number = 12131
 const dt = DateTime.now().toFormat('yyyy LLL dd').toString();
 
-// const response = await fetch("../../data.json");
-const setData = null
 
-
-
-class Test extends Component {
+class Test2 extends Component {
     constructor(props) {
         super(props)
         this.state = {
         }
     }
     
-
-
-
     buttonClick = () => {
         console.log("")
     }
@@ -37,23 +20,10 @@ class Test extends Component {
         console.log("asd")
 
     }
-
     
     render(){
         return(
                 <>
-                    {/* <div class="flex">
-                        <Tabs activeIndex={0} onTabChange={this.changeView} class="flex">
-                            <Tab class="flex-none w-14 h-14">Summary</Tab>
-                            <Tab class="flex-none w-14 h-14">Vaccinations</Tab>
-                            <Tab class="flex-none w-14 h-14">Test</Tab>
-                            <Tab class="flex-none w-14 h-14">Travel Information</Tab>
-                            <Tab class="flex-none w-14 h-14">Contact</Tab>
-
-                        </Tabs>
-                    </div>
-                    <hr></hr> */}
-
                     <div class="grid grid-cols-6 gap-4 text-center space-y-2">
                         <div class="col-start-2 col-span-4 font-sans text-3xl">
                             <a>
@@ -132,4 +102,4 @@ class Test extends Component {
     }
 
 }
-export default Test;
+export default Test2;
